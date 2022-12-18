@@ -1,0 +1,14 @@
+* Goal
+Replicate Karpathy's micrograd mostly so that I can feel the satisfaction and
+continue watching his series and doing the exercises.
+
+Let's rewatch his video sped up and make sure to reproduce his steps.
+
+BTW can I use org mode babel instead of Jupyter notebooks? Editing is so much
+more pleasant inside emacs.
+
+* Side question
+We compute derivatives of all weights with respect to the loss. The derivatives
+of the upstream nodes are valid holding the downstream weight values constant.
+However we apply the gradient update simultaneously at all layers. I asked
+Vitaliy about this.
